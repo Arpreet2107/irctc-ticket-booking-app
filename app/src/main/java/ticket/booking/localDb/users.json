@@ -1,0 +1,366 @@
+[
+  {
+    "user_id": "abcdef",
+    "name": "Arpreet Mahala",
+    "hashed_password": "hashed_password_1",
+    "tickets_booked": [
+      {
+        "ticket_id": "ticket101",
+        "source": "Bangalore",
+        "destination": "Delhi",
+        "date_of_travel": "2023-12-08",
+        "train": {
+          "train_id": "t101",
+          "train_no": 12345,
+          "train_name": "Bangalore Express",
+          "seats": [
+            [0, 0, 0, 0, 0, 0],
+            [0, 1, 0, 0, 0, 0],
+            [0, 0, 0, 1, 0, 0],
+            [0, 0, 0, 0, 0, 0]
+          ],
+          "station_times": {
+            "bangalore": "13:50:00",
+            "chennai": "18:30:00",
+            "delhi": "08:00:00"
+          },
+          "stations": ["bangalore", "chennai", "delhi"]
+        }
+      },
+      {
+        "ticket_id": "ticket102",
+        "source": "Mumbai",
+        "destination": "Jaipur",
+        "date_of_travel": "2023-12-15",
+        "train": {
+          "train_id": "t102",
+          "train_no": 12347,
+          "train_name": "Jaipur Mail",
+          "seats": [
+            [0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0],
+            [0, 0, 1, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0]
+          ],
+          "station_times": {
+            "mumbai": "10:00:00",
+            "jaipur": "22:00:00",
+            "delhi": "04:00:00"
+          },
+          "stations": ["mumbai", "jaipur", "delhi"]
+        }
+      }
+    ]
+  },
+  {
+    "user_id": "xyz789",
+    "name": "Priya Sharma",
+    "hashed_password": "hashed_password_2",
+    "tickets_booked": [
+      {
+        "ticket_id": "ticket201",
+        "source": "Kolkata",
+        "destination": "Chennai",
+        "date_of_travel": "2023-12-10",
+        "train": {
+          "train_id": "t103",
+          "train_no": 12349,
+          "train_name": "Kolkata Express",
+          "seats": [
+            [0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 1, 0]
+          ],
+          "station_times": {
+            "kolkata": "08:00:00",
+            "chennai": "02:00:00"
+          },
+          "stations": ["kolkata", "chennai"]
+        }
+      }
+    ]
+  },
+  {
+    "user_id": "lmnopq",
+    "name": "Rahul Verma",
+    "hashed_password": "hashed_password_3",
+    "tickets_booked": []
+  },
+  {
+    "user_id": "rstuvw",
+    "name": "Anika Patel",
+    "hashed_password": "hashed_password_4",
+    "tickets_booked": [
+      {
+        "ticket_id": "ticket301",
+        "source": "Delhi",
+        "destination": "Mumbai",
+        "date_of_travel": "2023-12-12",
+        "train": {
+          "train_id": "t104",
+          "train_no": 14567,
+          "train_name": "Mumbai Rajdhani",
+          "seats": [
+            [0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0]
+          ],
+          "station_times": {
+            "delhi": "17:00:00",
+            "mumbai": "07:30:00"
+          },
+          "stations": ["delhi", "mumbai"]
+        }
+      }
+    ]
+  },
+  {
+    "user_id": "fghijk",
+    "name": "Vikram Singh",
+    "hashed_password": "hashed_password_5",
+    "tickets_booked": [
+      {
+        "ticket_id": "ticket401",
+        "source": "Bangalore",
+        "destination": "Chennai",
+        "date_of_travel": "2023-12-18",
+        "train": {
+          "train_id": "t101",
+          "train_no": 12345,
+          "train_name": "Bangalore Express",
+          "seats": [
+            [0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0]
+          ],
+          "station_times": {
+            "bangalore": "13:50:00",
+            "chennai": "18:30:00"
+          },
+          "stations": ["bangalore", "chennai"]
+        }
+      }
+    ]
+  },
+  {
+    "user_id": "opqrst",
+    "name": "Meera Krishnan",
+    "hashed_password": "hashed_password_6",
+    "tickets_booked": []
+  },
+  {
+    "user_id": "uvwxyza",
+    "name": "Suresh Reddy",
+    "hashed_password": "hashed_password_7",
+    "tickets_booked": [
+      {
+        "ticket_id": "ticket501",
+        "source": "Mumbai",
+        "destination": "Delhi",
+        "date_of_travel": "2023-12-22",
+        "train": {
+          "train_id": "t102",
+          "train_no": 12347,
+          "train_name": "Jaipur Mail",
+          "seats": [
+            [0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0]
+          ],
+          "station_times": {
+            "mumbai": "10:00:00",
+            "delhi": "04:00:00"
+          },
+          "stations": ["mumbai", "delhi"]
+        }
+      }
+    ]
+  },
+  {
+    "user_id": "bcdefgh",
+    "name": "Rohan Gupta",
+    "hashed_password": "hashed_password_8",
+    "tickets_booked": []
+  },
+  {
+    "user_id": "ijklmno",
+    "name": "Neha Desai",
+    "hashed_password": "hashed_password_9",
+    "tickets_booked": [
+      {
+        "ticket_id": "ticket601",
+        "source": "Kolkata",
+        "destination": "Mumbai",
+        "date_of_travel": "2024-01-05",
+        "train": {
+          "train_id": "t103",
+          "train_no": 12349,
+          "train_name": "Kolkata Express",
+          "seats": [
+            [0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0]
+          ],
+          "station_times": {
+            "kolkata": "08:00:00",
+            "mumbai": "18:00:00"
+          },
+          "stations": ["kolkata", "mumbai"]
+        }
+      }
+    ]
+  },
+  {
+    "user_id": "pqrstuv",
+    "name": "Amit Sharma",
+    "hashed_password": "hashed_password_10",
+    "tickets_booked": [
+      {
+        "ticket_id": "ticket701",
+        "source": "Chennai",
+        "destination": "Delhi",
+        "date_of_travel": "2024-01-10",
+        "train": {
+          "train_id": "t101",
+          "train_no": 12345,
+          "train_name": "Bangalore Express",
+          "seats": [
+            [0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0]
+          ],
+          "station_times": {
+            "chennai": "18:30:00",
+            "delhi": "08:00:00"
+          },
+          "stations": ["chennai","delhi"]
+        }
+      }
+    ]
+  },
+  {
+    "user_id": "wxyzabc",
+    "name": "Sneha Reddy",
+    "hashed_password": "hashed_password_11",
+    "tickets_booked": []
+  },
+  {
+    "user_id": "defghij",
+    "name": "Kunal Kapoor",
+    "hashed_password": "hashed_password_12",
+    "tickets_booked": [
+      {
+        "ticket_id": "ticket801",
+        "source":"Jaipur",
+        "destination":"Kolkata",
+        "date_of_travel":"2024-01-12",
+        "train":{
+          "train_id":"t102",
+          "train_no":12347,
+          "train_name":"Jaipur Mail",
+          "seats":[
+            [0,0,0,0,0,0],
+            [0,0,0,0,0,0],
+            [0,0,0,0,0,0],
+            [0,0,0,0,0,0]
+          ],
+          "station_times":{
+            "jaipur":"22:00:00",
+            "kolkata":"06:00:00"
+          },
+          "stations":["jaipur","kolkata"]
+        }
+      }
+    ]
+  },
+  {
+    "user_id":"klmnopqr",
+    "name":"Ananya Iyer",
+    "hashed_password":"hashed_password_13",
+    "tickets_booked":[]
+  },
+  {
+    "user_id":"stuvwxyz",
+    "name":"Gaurav Bhatnagar",
+    "hashed_password":"hashed_password_14",
+    "tickets_booked":[
+      {
+        "ticket_id":"ticket901",
+        "source":"Delhi",
+        "destination":"Chennai",
+        "date_of_travel":"2024-01-18",
+        "train":{
+          "train_id":"t104",
+          "train_no":14567,
+          "train_name":"Mumbai Rajdhani",
+          "seats":[
+            [0,0,0,0,0,0],
+            [0,0,0,0,0,0],
+            [0,0,0,0,0,0],
+            [0,0,0,0,0,0]
+          ],
+          "station_times":{
+            "delhi":"17:00:00",
+            "chennai":"03:00:00"
+          },
+          "stations":["delhi","chennai"]
+        }
+      }
+    ]
+  },
+  {
+    "user_id":"abcd123",
+    "name":"Diya Menon",
+    "hashed_password":"hashed_password_15",
+    "tickets_booked":[]
+  },
+  {
+    "user_id":"efgh456",
+    "name":"Manish Kumar",
+    "hashed_password":"hashed_password_16",
+    "tickets_booked":[
+      {
+        "ticket_id":"ticket1001",
+        "source":"Bangalore",
+        "destination":"Jaipur",
+        "date_of_travel":"2024-02-20",
+        "train":{
+          "train_id":"t101",
+          "train_no":12345,
+          "train_name":"Bangalore Express",
+          "seats":[
+            [0,0,0,0,0,0],
+            [0,0,0,0,0,0],
+            [0,0,0,0,0,0],
+            [0,0,0,0,0,0]
+          ],
+          "station_times":{
+            "bangalore":"13:50:00",
+            "jaipur":"21:00:00"
+          },
+          "stations":["bangalore","jaipur"]
+        }
+      }
+    ]
+  },
+  {
+    "user_id":"ijkl789",
+    "name":"Sanya Singh",
+    "hashed_password":"hashed_password_17",
+    "tickets_booked":[]
+  },
+  {
+    "user_id":"mnop101",
+    "name":"Vivek Sharma",
+    "hashed_password":"hashed_password_18",
+    "tickets_booked":[
+
+    ]
+  }
+]

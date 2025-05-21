@@ -1,0 +1,352 @@
+[
+  {
+    "train_id": "t101",
+    "train_no": 12345,
+    "train_name": "Bangalore Express",
+    "seats": [
+      [0, 0, 0, 0, 0, 0],
+      [0, 1, 0, 0, 0, 0],
+      [0, 0, 0, 1, 0, 0],
+      [0, 0, 0, 0, 0, 0]
+    ],
+    "station_times": {
+      "bangalore": "13:50:00",
+      "chennai": "18:30:00",
+      "vijayawada": "23:00:00",
+      "delhi": "08:00:00"
+    },
+    "stations": ["bangalore", "chennai", "vijayawada", "delhi"],
+    "days_of_operation": ["MON", "WED", "FRI"],
+    "coach_details": [
+      {"coach_type": "AC1", "coaches": 2},
+      {"coach_type": "AC2", "coaches": 3},
+      {"coach_type": "SL", "coaches": 5}
+    ]
+  },
+  {
+    "train_id": "t102",
+    "train_no": 12347,
+    "train_name": "Jaipur Mail",
+    "seats": [
+      [0, 0, 0, 0, 0, 0],
+      [0, 0, 0, 0, 0, 0],
+      [0, 0, 1, 0, 0, 0],
+      [0, 0, 0, 0, 0, 0]
+    ],
+    "station_times": {
+      "mumbai": "10:00:00",
+      "ahmedabad": "16:00:00",
+      "jaipur": "22:00:00",
+      "delhi": "04:00:00"
+    },
+    "stations": ["mumbai", "ahmedabad", "jaipur", "delhi"],
+    "days_of_operation": ["TUE", "THU", "SAT"],
+    "coach_details": [
+      {"coach_type": "AC1", "coaches": 1},
+      {"coach_type": "AC3", "coaches": 4},
+      {"coach_type": "SL", "coaches": 6}
+    ]
+  },
+  {
+    "train_id": "t103",
+    "train_no": 12349,
+    "train_name": "Kolkata Express",
+    "seats": [
+      [0, 0, 0, 0, 0, 0],
+      [0, 0, 0, 0, 0, 0],
+      [0, 0, 0, 0, 0, 0],
+      [0, 0, 0, 0, 1, 0]
+    ],
+    "station_times": {
+      "kolkata": "08:00:00",
+      "bhubaneswar": "14:00:00",
+      "visakhapatnam": "20:00:00",
+      "chennai": "02:00:00"
+    },
+    "stations": ["kolkata", "bhubaneswar", "visakhapatnam", "chennai"],
+    "days_of_operation": ["SUN", "MON", "TUE", "WED", "THU", "FRI", "SAT"],
+    "coach_details": [
+      {"coach_type": "AC2", "coaches": 2},
+      {"coach_type": "AC3", "coaches": 3},
+      {"coach_type": "SL", "coaches": 7},
+      {"coach_type": "GEN", "coaches": 2}
+    ]
+  },
+  {
+    "train_id": "t104",
+    "train_no": 14567,
+    "train_name": "Mumbai Rajdhani",
+    "seats": [
+      [0, 0, 0, 0, 0, 0],
+      [0, 0, 0, 0, 0, 0],
+      [0, 0, 0, 0, 0, 0],
+      [0, 0, 0, 0, 0, 0]
+    ],
+    "station_times": {
+      "delhi": "17:00:00",
+      "kota": "21:30:00",
+      "vadodara": "03:00:00",
+      "mumbai": "07:30:00"
+    },
+    "stations": ["delhi", "kota", "vadodara", "mumbai"],
+    "days_of_operation": ["MON", "THU"],
+    "coach_details": [
+      {"coach_type": "AC1", "coaches": 3},
+      {"coach_type": "AC2", "coaches": 4}
+    ]
+  },
+  {
+    "train_id": "t105",
+    "train_no": 16789,
+    "train_name": "Chennai Express",
+    "seats": [
+      [0, 0, 0, 0, 0, 0],
+      [0, 0, 1, 0, 0, 0],
+      [0, 0, 0, 0, 0, 0],
+      [0, 0, 0, 0, 0, 0]
+    ],
+    "station_times": {
+      "chennai": "20:00:00",
+      "bangalore": "01:00:00",
+      "coimbatore": "05:30:00"
+    },
+    "stations": ["chennai", "bangalore", "coimbatore"],
+    "days_of_operation": ["TUE", "WED", "FRI", "SAT"],
+    "coach_details": [
+      {"coach_type": "AC2", "coaches": 4},
+      {"coach_type": "SL", "coaches": 8}
+    ]
+  },
+  {
+    "train_id": "t106",
+    "train_no": 18901,
+    "train_name": "Hyderabad Superfast",
+    "seats": [
+      [1, 0, 0, 0, 0, 0],
+      [0, 0, 0, 0, 0, 0],
+      [0, 0, 0, 0, 0, 0],
+      [0, 0, 0, 0, 0, 0]
+    ],
+    "station_times": {
+      "hyderabad": "09:00:00",
+      "warangal": "12:00:00",
+      "nagpur": "18:00:00",
+      "bhopal": "00:00:00"
+    },
+    "stations": ["hyderabad", "warangal", "nagpur", "bhopal"],
+    "days_of_operation": ["MON", "THU", "SAT", "SUN"],
+    "coach_details": [
+      {"coach_type": "AC1", "coaches": 2},
+      {"coach_type": "AC3", "coaches": 5},
+      {"coach_type": "GEN", "coaches": 3}
+    ]
+  },
+  {
+    "train_id": "t107",
+    "train_no": 15678,
+    "train_name": "Ahmedabad Express",
+    "seats": [
+      [0, 0, 0, 0, 0, 0],
+      [0, 0, 0, 0, 0, 0],
+      [0, 0, 0, 1, 0, 0],
+      [0, 0, 0, 0, 0, 0]
+    ],
+    "station_times": {
+      "ahmedabad": "11:30:00",
+      "vadodara": "13:00:00",
+      "surat": "15:30:00",
+      "mumbai": "19:00:00"
+    },
+    "stations": ["ahmedabad", "vadodara", "surat", "mumbai"],
+    "days_of_operation": ["WED", "FRI", "SAT"],
+    "coach_details": [
+      {"coach_type": "AC2", "coaches": 3},
+      {"coach_type": "SL", "coaches": 6},
+      {"coach_type": "GEN", "coaches": 2}
+    ]
+  },
+  {
+    "train_id": "t108",
+    "train_no": 22345,
+    "train_name": "Pune Duronto",
+    "seats": [
+      [0, 0, 0, 0, 0, 0],
+      [0, 0, 0, 0, 0, 0],
+      [0, 0, 0, 0, 0, 0],
+      [1, 0, 0, 0, 0, 0]
+    ],
+    "station_times": {
+      "pune": "14:30:00",
+      "mumbai": "17:30:00",
+      "goa": "01:00:00"
+    },
+    "stations": ["pune", "mumbai", "goa"],
+    "days_of_operation": ["MON", "THU", "SUN"],
+    "coach_details": [
+      {"coach_type": "AC1", "coaches": 2},
+      {"coach_type": "AC2", "coaches": 4},
+      {"coach_type": "AC3", "coaches": 3}
+    ]
+  },
+  {
+    "train_id": "t109",
+    "train_no": 12841,
+    "train_name": "Coromandel Express",
+    "seats":[
+      [0,0,0,0,0,0],
+      [0,0,0,0,0,0],
+      [0,0,0,0,0,0],
+      [0,0,0,0,0,0]
+    ],
+    "station_times":{
+      "kolkata":"12:00:00",
+      "bhubaneswar":"18:00:00",
+      "visakhapatnam":"00:30:00",
+      "chennai":"07:00:00"
+    },
+    "stations":["kolkata","bhubaneswar","visakhapatnam","chennai"],
+    "days_of_operation":["MON","TUE","WED","THU","FRI","SAT","SUN"],
+    "coach_details":[
+      {"coach_type":"AC1","coaches":2},
+      {"coach_type":"AC2","coaches":2},
+      {"coach_type":"AC3","coaches":3},
+      {"coach_type":"SL","coaches":8}
+    ]
+  },
+  {
+    "train_id":"t110",
+    "train_no":12628,
+    "train_name":"Karnataka Express",
+    "seats":[
+      [0,0,0,0,0,0],
+      [0,0,0,0,0,0],
+      [0,0,0,0,0,0],
+      [0,0,0,0,0,0]
+    ],
+    "station_times":{
+      "delhi":"20:00:00",
+      "bangalore":"08:00:00"
+    },
+    "stations":["delhi","bangalore"],
+    "days_of_operation":["DAILY"],
+    "coach_details":[
+      {"coach_type":"AC1","coaches":2},
+      {"coach_type":"AC2","coaches":4},
+      {"coach_type":"AC3","coaches":6},
+      {"coach_type":"SL","coaches":10}
+    ]
+  },
+  {
+    "train_id":"t111",
+    "train_no":12007,
+    "train_name":"Shatabdi Express",
+    "seats":[
+      [0,0,0,0,0,0],
+      [0,0,0,0,0,0],
+      [0,0,0,0,0,0],
+      [0,0,0,0,0,0]
+    ],
+    "station_times":{
+      "chennai":"06:00:00",
+      "bangalore":"11:00:00",
+      "mysore":"14:00:00"
+    },
+    "stations":["chennai","bangalore","mysore"],
+    "days_of_operation":["MON","TUE","WED","THU","FRI","SAT"],
+    "coach_details":[
+      {"coach_type":"EC","coaches":4},
+      {"coach_type":"CC","coaches":8}
+    ]
+  },
+  {
+    "train_id":"t112",
+    "train_no":12296,
+    "train_name":"Patna Rajdhani Express",
+    "seats":[
+      [0,0,0,0,0,0],
+      [0,0,0,0,0,0],
+      [0,0,0,0,0,0],
+      [0,0,0,0,0,0]
+    ],
+    "station_times":{
+      "delhi":"19:30:00",
+      "kanpur":"23:30:00",
+      "patna":"07:00:00"
+    },
+    "stations":["delhi","kanpur","patna"],
+    "days_of_operation":["MON","TUE","WED","THU","FRI","SAT","SUN"],
+    "coach_details":[
+      {"coach_type":"AC1","coaches":3},
+      {"coach_type":"AC2","coaches":4},
+      {"coach_type":"AC3","coaches":5}
+    ]
+  },
+  {
+    "train_id":"t113",
+    "train_no":22691,
+    "train_name":"Bangalore SF Express",
+    "seats":[
+      [0,0,0,0,0,0],
+      [0,0,0,0,0,0],
+      [0,0,0,0,0,0],
+      [0,0,0,0,0,0]
+    ],
+    "station_times":{
+      "jaipur":"15:00:00",
+      "bhopal":"21:00:00",
+      "bangalore":"12:00:00"
+    },
+    "stations":["jaipur","bhopal","bangalore"],
+    "days_of_operation":["TUE","FRI","SUN"],
+    "coach_details":[
+      {"coach_type":"AC2","coaches":3},
+      {"coach_type":"AC3","coaches":4},
+      {"coach_type":"SL","coaches":6}
+    ]
+  },
+  {
+    "train_id":"t114",
+    "train_no":12617,
+    "train_name":"Mangala Express",
+    "seats":[
+      [0,0,0,0,0,0],
+      [0,0,0,0,0,0],
+      [0,0,0,0,0,0],
+      [0,0,0,0,0,0]
+    ],
+    "station_times":{
+      "delhi":"09:15:00",
+      "kozhikode":"21:45:00"
+    },
+    "stations":["delhi","kozhikode"],
+    "days_of_operation":["DAILY"],
+    "coach_details":[
+      {"coach_type":"AC1","coaches":1},
+      {"coach_type":"AC2","coaches":2},
+      {"coach_type":"AC3","coaches":3},
+      {"coach_type":"SL","coaches":9},
+      {"coach_type":"GEN","coaches":2}
+    ]
+  },
+  {
+    "train_id": "t115",
+    "train_no": 12863,
+    "train_name": "Howrah Express",
+    "seats": [
+      [0, 0, 0, 0, 0, 0],
+      [0, 0, 0, 0, 0, 0],
+      [0, 0, 0, 0, 0, 0],
+      [0, 0, 0, 0, 0, 0]
+    ],
+    "station_times": {
+      "kolkata": "16:35:00",
+      "chennai": "20:30:00"
+    },
+    "stations": ["kolkata", "chennai"],
+    "days_of_operation": ["MON", "TUE", "WED","THU","FRI"],
+    "coach_details": [
+      {"coach_type": "AC2", "coaches": 3},
+      {"coach_type": "SL", "coaches": 7}
+    ]
+  }
+]
